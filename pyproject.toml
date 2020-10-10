@@ -8,7 +8,7 @@ authors = ["Your Name <you@example.com>"]
 python = "^3.8"
 aiohttp = "^3.6.2"
 ccxt = "^1.35.82"
-celery = "^5.0.0"
+celery = {extras = ["redis"], version = "^5.0.0"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.1.1"
